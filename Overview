@@ -1,0 +1,40 @@
+# ❤️ Heart Disease Prediction
+
+This project aims to predict the presence of heart disease using machine learning techniques. It uses patient health records and evaluates models based on their classification performance.
+
+## ✅ Objective
+
+To classify whether a person is likely to have heart disease (1) or not (0) using health-related features.
+
+## 🛠️ Tools & Technologies
+
+- Python (Pandas, NumPy, Matplotlib, Seaborn)
+- Scikit-learn (Logistic Regression, Decision Tree)
+- StandardScaler for feature normalization
+- ROC, Confusion Matrix for evaluation
+
+## 📊 Dataset
+
+The dataset includes features like:
+- Age, Gender, Cholesterol, Blood Pressure
+- Categorical columns are encoded
+- Target: `0 = No Disease`, `1 = Disease`
+
+## 🔎 Methodology
+
+1. Data loaded and checked for missing values.
+2. Data visualization: histograms, countplot, and correlation heatmap.
+3. Preprocessing: One-hot encoding + scaling.
+4. Models trained: Logistic Regression & Decision Tree.
+5. Evaluation using Accuracy, ROC-AUC, and confusion matrices.
+
+## 📈 Results
+
+- Both models perform well in classification.
+- ROC curves highlight prediction quality.
+- Decision Tree offers interpretability; Logistic Regression provides a strong baseline.
+
+## 📌 Conclusion
+
+This project demonstrates how machine learning can assist in early detection of heart disease. While not a replacement for medical diagnostics, it is useful for predictive screening.
+
