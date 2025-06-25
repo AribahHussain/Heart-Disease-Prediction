@@ -1,0 +1,3 @@
+📂 Dataset Information
+This project uses the Heart Disease UCI Dataset, which is publicly available on Kaggle. The dataset contains anonymized health records of individuals, featuring clinical and demographic attributes such as age, sex, cholesterol, blood pressure, chest pain type, and more. The target variable target indicates whether the individual has heart disease (1) or not (0). This dataset is widely used in academic and practical machine learning tasks to demonstrate binary classification in healthcare.
+
